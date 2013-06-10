@@ -6,10 +6,7 @@ import static java.lang.System.*;
  * 
  */
 public class Projeto2 {
-	/** Número de versão */
-	private static final int VERSION = 1;
-
-    /** Número de Alambiques. */
+	/** Número de Alambiques. */
     private static int alambiqueCount;
 
     /** Atravessadores  traders.get(g) é um atravessador especialista na variedade de cana de açúcar g */
