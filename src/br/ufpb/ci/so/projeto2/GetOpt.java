@@ -6,8 +6,6 @@ import java.util.StringTokenizer;
  * @version 2.1
  */
 public class GetOpt {
-    private static String VERSION = "$Id: GetOpt.java,v 1.2 2007/02/06 19:49:26 solomon Exp $";
-
     /** A record used in a table of option descriptions passed to a constructor
      * of GetOpt.  For example,
      * <pre>
@@ -17,8 +15,6 @@ public class GetOpt {
      * equivalent to the short option "-c red".
      */
     public static class LongOption {
-        private static String VERSION = "$Id: GetOpt.java,v 1.2 2007/02/06 19:49:26 solomon Exp $";
-
         /** The option name (for example, "color"). */
         public String name;
 

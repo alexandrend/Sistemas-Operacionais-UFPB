@@ -4,10 +4,7 @@ package br.ufpb.ci.so.projeto2;
  * 
  */
 public class Fornecedor implements Runnable {
-	/** Número de versão */
-	private static final int VERSION = 1;
-
-    /** Quantidade de iterações antes de finalizar a execução */
+	/** Quantidade de iterações antes de finalizar a execução */
     private int iteracoes;
 
     /** Total entregue até o momento */

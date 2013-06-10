@@ -5,10 +5,7 @@ import java.util.*;
  * 
  */
 public class Pedido {
-	/** Source version number. */
-	private static final int VERSION = 1;
-
-    /** Nœmero de vers‹o */
+	/** Nœmero de vers‹o */
     private Map<Cana,Integer> quant;
 
     /** Cria um novo pedido com todos os valores em 0. */

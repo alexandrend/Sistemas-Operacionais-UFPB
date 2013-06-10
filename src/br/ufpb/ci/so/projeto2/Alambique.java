@@ -3,10 +3,7 @@ package br.ufpb.ci.so.projeto2;
  *
  */
 public class Alambique implements Runnable {
-	/** Número de versão */
-	private static final int VERSION = 1;
-
-    /** Total consumido até agora. */
+	/** Total consumido até agora. */
     private Pedido consumido = new Pedido();
 
     /**
