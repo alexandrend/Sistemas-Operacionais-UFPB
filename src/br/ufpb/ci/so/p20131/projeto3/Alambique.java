@@ -1,9 +1,6 @@
 package br.ufpb.ci.so.p20131.projeto3;
 
-/** A consumer of grain.
- * <br>
- * CS 537, Spring 2007, Project 3.
- */
+
 public class Alambique implements Runnable {
   
     /** Identificador deste consumidor */
