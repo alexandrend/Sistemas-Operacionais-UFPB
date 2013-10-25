@@ -1,4 +1,4 @@
-package br.ufpb.ci.so.projeto2;
+package br.ufpb.ci.so.p20131.projeto3;
 import java.util.*;
 
 /** Um pedido
@@ -45,6 +45,26 @@ public class Pedido {
     public void set(Cana g, int n) {
         quant.put(g, n);
     }
+    
+    /** Seta a quantidade desejada cana de todas as variedades para n
+     * @param n the amount to set.
+     */
+    public void set(int n) {
+        for (Cana c : Cana.values()) {
+            set(c, n);
+        }
+    } 
+    
+    /** Retorna a quantidade total de cana deste pedido
+     * @return o total.
+     */
+    public int total() {
+        int sum = 0;
+        for (Cana c : Cana.values()) {
+            sum += get(c);
+        }
+        return sum;
+    } 
 
     /** Modifica o valor de "g" pelo valor "diff".
      * @param g uma variedade de cana
@@ -52,6 +72,15 @@ public class Pedido {
      */
     public void troca(Cana g, int diff) {
         quant.put(g, quant.get(g) + diff);
+    } 
+    
+    /** Modifica o valor de cada cana "c" pelo valor the outro.get(c).
+     * @param incr the amount to increment by.
+     */
+    public void troca(Pedido outro) {
+        for (Cana c : Cana.values()) {
+            troca(c, outro.get(c));
+        }
     } 
 
     /** Retorna uma c—pia deste pedido.

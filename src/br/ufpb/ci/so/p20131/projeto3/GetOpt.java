@@ -1,4 +1,4 @@
-package br.ufpb.ci.so.projeto2;
+package br.ufpb.ci.so.p20131.projeto3;
 import java.util.StringTokenizer;
 
 /** Java version of GNU getopt.

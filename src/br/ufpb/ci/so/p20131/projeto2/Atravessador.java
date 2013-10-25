@@ -1,4 +1,4 @@
-package br.ufpb.ci.so.projeto2;
+package br.ufpb.ci.so.p20131.projeto2;
 /**
  * Interface a ser implementada pela classe by AtravessadorImpl
  *
